@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+    background-color: rgb(244, 19, 105);
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input[type="password"] {
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+#validation-message {
+    color: rgb(249, 245, 245);
+    font-size: 12px;
+    margin-top: 10px;
+}
+.valid {
+    color: green;
+}
+.invalid {
+    color: red;
+}
+
+
